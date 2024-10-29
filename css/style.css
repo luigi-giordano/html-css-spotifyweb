@@ -7,3 +7,33 @@
 body {
 	font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
+
+header{
+  height: 100px;
+  background-color: aqua;
+}
+
+
+main{
+  height: calc(100vh - 180px);
+}
+
+.main-wrapper{
+  display: flex;
+  height: 100%;
+}
+
+aside{
+  background-color: aquamarine;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.content{
+  overflow: auto;
+}
+
+footer{
+  height: 80px;
+  background-color: aqua;
+}
