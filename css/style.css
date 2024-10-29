@@ -18,7 +18,7 @@ body {
   background-color: #1e1f38; 
 }
 .container-card img{
-  width: 60%;
+  width: 100%;
 }
 .sidebar {
   width: 250px; /* Larghezza della sidebar */
@@ -39,25 +39,40 @@ body {
   height: 100px;
   text-align: right;
 }
-
-.main {
-  padding: 0px;
+.menu{
+  text-align: center;
+  margin-bottom: 20px;
 }
+.menu-list { 
+  padding: 0; 
+  display: flex; 
+  justify-content: center; 
+} 
+.menu-list li { 
+  margin: 0 15px; 
+} 
+.menu-list li a { 
+  text-decoration: none; 
+  color: black; 
+}
+
+
 .card {  
   flex-wrap: wrap;
   margin: 10px; 
-  
-  
-  
-  
+  color: white;
+  text-align: center;
+   
  }
  .title-card { 
   width: 100%; 
   text-align: left; 
   margin-bottom: 20px; 
   color: white;
-  
 }
+
+
+
 
 button{
   border-radius: 20px;
