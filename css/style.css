@@ -7,9 +7,15 @@
 body {
 	font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
-.container {
+.container-sidebar {
   display: flex;
-  
+}
+.container-card { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  padding: 20px; 
+  background-color: #fff; 
 }
 .sidebar {
   width: 250px; /* Larghezza della sidebar */
@@ -34,6 +40,20 @@ body {
 .main {
   flex: 1; /* Occupare lo spazio disponibile tra header e footer */
   padding: 20px;
+}
+.card {  
+  flex-wrap: wrap;
+  margin: 10px; 
+  width: 300px;
+  text-align: left; 
+  
+  
+ }
+ .title-card { 
+  width: 100%; 
+  text-align: left; 
+  margin-bottom: 20px; 
+  
 }
 
 button{
