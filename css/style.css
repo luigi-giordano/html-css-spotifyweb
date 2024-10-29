@@ -13,9 +13,12 @@ body {
 .container-card { 
   display: flex; 
   flex-wrap: wrap; 
-  justify-content: center; 
+  justify-content: flex-start;
   padding: 20px; 
-  background-color: #fff; 
+  background-color: #1e1f38; 
+}
+.container-card img{
+  width: 60%;
 }
 .sidebar {
   width: 250px; /* Larghezza della sidebar */
@@ -38,14 +41,13 @@ body {
 }
 
 .main {
-  flex: 1; /* Occupare lo spazio disponibile tra header e footer */
-  padding: 20px;
+  padding: 0px;
 }
 .card {  
   flex-wrap: wrap;
   margin: 10px; 
-  width: 300px;
-  text-align: left; 
+  
+  
   
   
  }
@@ -53,6 +55,7 @@ body {
   width: 100%; 
   text-align: left; 
   margin-bottom: 20px; 
+  color: white;
   
 }
 
