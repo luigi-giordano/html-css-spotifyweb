@@ -109,8 +109,10 @@ aside{
   align-items: center;
   margin: 15px 15px;
   padding-top: 10px;
-  justify-content: space-around;
   
+}
+.text-card{
+  padding-left: 20px;
 }
 
 
