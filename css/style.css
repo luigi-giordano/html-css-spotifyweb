@@ -30,17 +30,28 @@ aside{
 .container-footer{
  display: flex;
  justify-content: space-between;
-  
+ align-items: center;
 }
 .container-footer img{
   width: 5%;
 }
+
+
+.progress { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+
+
 .sidebar {
   width: 250px;
   background-color: #040404;
   padding: 20px;
   color: #e6e6e6;
 }
+
 
 
 .content {
@@ -93,7 +104,7 @@ aside{
 
 
 button{
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 
