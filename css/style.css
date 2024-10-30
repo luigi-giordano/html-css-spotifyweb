@@ -10,6 +10,13 @@ body {
 .container-sidebar {
   display: flex;
 }
+
+aside{
+  background-color: aquamarine;
+  width: 250px;
+  flex-shrink: 0;
+}
+
 .container-card { 
   display: flex; 
   flex-wrap: wrap; 
@@ -20,12 +27,22 @@ body {
 .container-card img{
   width: 100%;
 }
+.container-footer{
+ display: flex;
+ justify-content: space-between;
+  
+}
+.container-footer img{
+  width: 5%;
+}
 .sidebar {
-  width: 250px; /* Larghezza della sidebar */
+  width: 250px;
   background-color: #040404;
   padding: 20px;
   color: #e6e6e6;
 }
+
+
 .content {
   overflow: auto;
   height: calc(100vh - 100px);
@@ -34,7 +51,7 @@ body {
 }
 
 .header {
-  background-color: #1e1f38;
+  background-color: #18191c;
   color: white;
   height: 100px;
   text-align: right;
@@ -75,21 +92,25 @@ body {
 }
 
 
-
-
 button{
   border-radius: 20px;
 }
 
-aside{
-  background-color: aquamarine;
-  width: 250px;
-  flex-shrink: 0;
-}
 
 .footer {
   background-color: #242724;
   color: white;
   height: 100px;
   
+  
+}
+
+@media screen and (max-width:600px){
+  .sidebar{
+    width: 50px;
+
+  }
+  .content{
+    width: calc(100% - 50px);
+  }
 }
