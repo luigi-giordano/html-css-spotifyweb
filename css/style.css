@@ -33,7 +33,7 @@ aside{
  align-items: center;
 }
 .container-footer img{
-  width: 5%;
+  width: 15%;
 }
 
 
@@ -103,6 +103,14 @@ aside{
   text-align: left; 
   margin-bottom: 20px; 
   color: white;
+}
+.card-mini-left{
+  display: flex;
+  align-items: center;
+  margin: 15px 15px;
+  padding-top: 10px;
+  justify-content: space-around;
+  
 }
 
 
