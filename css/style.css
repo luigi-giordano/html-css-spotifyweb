@@ -107,6 +107,21 @@ aside{
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.card-mini-center{
+  display: flex;
+  align-items: center;
+  margin: 15px 15px;
+  padding-top: 10px;
+  
+}
+.card-mini-right{
+  display: flex;
+  align-items: center;
+  margin: 15px 15px;
+  padding-top: 10px;
+  
+}
 .media-player i{
   padding-right: 10px;
   padding-left: 10px;
