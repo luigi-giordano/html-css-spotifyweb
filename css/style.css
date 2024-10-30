@@ -16,6 +16,12 @@ aside{
   width: 250px;
   flex-shrink: 0;
 }
+header{
+  background-color: #18191c;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+}
 
 .container-card { 
   display: flex; 
@@ -44,20 +50,11 @@ aside{
   color: #e6e6e6;
 }
 
-
-
 .content {
   overflow: auto;
   height: calc(100vh - 100px);
   background-color: #1e1f38;
 
-}
-
-.header {
-  background-color: #18191c;
-  color: white;
-  height: 100px;
-  text-align: right;
 }
 
 .menu{
@@ -131,13 +128,18 @@ aside{
   align-items: center;
   justify-content: space-between;
 } 
-button.progress-bar{
+.progress-bar{
+  
+  
   
 }
-
-
-button{
+.volume-bar a{
+  color: white;
+}
+header button{
+  border: 20px solid white;
   border-radius: 50px;
+  height: 50%;
 }
 
 
