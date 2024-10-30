@@ -71,8 +71,10 @@ aside{
 .menu{
   text-align: center;
   margin-bottom: 20px;
-  padding-left: 500px;
+  width: 100%;
+
 }
+
 .menu-list { 
   list-style-type: none; 
   padding: 0; 
@@ -93,6 +95,7 @@ aside{
   margin: 10px; 
   color: white;
   text-align: center;
+  width: calc(100% / 6 - 20px);
    
  }
  .title-card { 
