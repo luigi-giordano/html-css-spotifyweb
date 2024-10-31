@@ -10,6 +10,9 @@ body {
 .container-sidebar {
   display: flex;
 }
+.sidebar-logo img{
+  width: 80%;
+}
 
 aside{
   background-color: aquamarine;
@@ -21,6 +24,7 @@ header{
   height: 100px;
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 .container-card { 
@@ -78,26 +82,30 @@ header{
   color: rgb(146, 138, 138); 
 }
 
-
 .card {  
+  position: relative;
   flex-wrap: wrap;
   margin: 10px; 
   color: white;
   text-align: center;
-  width: calc(100% / 6 - 20px);
-   
+  width: calc(100% / 6 - 20px); 
  }
+
  .title-card { 
   width: 100%; 
   text-align: left; 
   margin-bottom: 20px; 
   color: white;
 }
+.card i.fa-circle-play{
+  font-size: 80px;
+}
+
 .card-mini-left{
   display: flex;
   align-items: center;
-  margin: 15px 15px;
-  padding-top: 10px;
+  padding: 25px;
+  width: 250px;
   
 }
 .text-card{
@@ -106,33 +114,40 @@ header{
 }
 
 .card-mini-center{
-  display: flex;
+  
   align-items: center;
-  margin: 15px 15px;
-  padding-top: 10px;
+  padding: 10px;
+  max-width: 30%;
   
 }
 .card-mini-right{
   display: flex;
   align-items: center;
-  margin: 15px 15px;
-  padding-top: 10px;
+  padding: 10px;
+  margin: 0;
   
 }
 .media-player i{
   padding-right: 10px;
   padding-left: 10px;
 }
+.media-player i{
+  font-size: 20px;
+}
+.media-player i:nth-child(3){
+  font-size: 30px;
+}
 .progress{ 
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 } 
-.progress-bar{
-  
-  
-  
+.media-player{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
 .volume-bar a{
   color: white;
 }
