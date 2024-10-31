@@ -20,12 +20,26 @@ aside{
   flex-shrink: 0;
 }
 header{
+  
   background-color: #18191c;
   height: 100px;
   display: flex;
   justify-content: end;
   align-items: center;
 }
+button a{
+  text-decoration: none;
+}
+header button {
+  border: 20px solid white;
+  border-radius: 50px;
+  height: 50%;
+}
+header button:hover{
+  padding-bottom: 7px;
+  border: 30px solid white;
+}
+
 
 .container-card { 
   display: flex; 
@@ -80,6 +94,9 @@ header{
 .menu-list li a { 
   text-decoration: none; 
   color: rgb(146, 138, 138); 
+}
+.menu-list li a:hover{
+  color: white;
 }
 
 .card {  
@@ -158,12 +175,6 @@ header{
 .volume-bar a{
   color: white;
 }
-header button{
-  border: 20px solid white;
-  border-radius: 50px;
-  height: 50%;
-}
-
 
 .footer {
   background-color: #242724;
