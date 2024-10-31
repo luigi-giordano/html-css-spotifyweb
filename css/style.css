@@ -98,7 +98,14 @@ header{
   color: white;
 }
 .card i.fa-circle-play{
-  font-size: 80px;
+  top:140px;
+  left: 140px;
+  position: absolute;
+  font-size: 5rem;
+  display: none;
+}
+.card:hover .fa-circle-play{
+  display: inline-block;
 }
 
 .card-mini-left{
