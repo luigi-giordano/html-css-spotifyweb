@@ -88,6 +88,11 @@ header button:hover {
   color: white;
 }
 
+.sidebar-bottom {
+  height: 80px;
+  background-color: #e6e6e6;
+}
+
 .content {
   overflow: auto;
   height: calc(100vh - 100px);
