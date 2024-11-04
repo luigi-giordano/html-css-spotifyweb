@@ -1,115 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Spotify</title>
 </head>
+
 <body>
 
   <div class="container-sidebar">
     <aside class="sidebar">
-        <!-- Contenuto della sidebar -->
-         <div class="sidebar-logo">
-          <img src="./img/logo.svg" alt="Spotify-logo">
-         </div>
-          <ul>
-            <li><i class="fa-solid fa-house"></i></li>
-            <li><i class="fa-solid fa-magnifying-glass"></i></li>
-            <li><i class="fa-solid fa-bars"></i></li>
-          </ul>
+      <!-- Contenuto della sidebar -->
+      <div class="sidebar-logo">
+        <img src="./img/logo.svg" alt="Spotify-logo">
+      </div>
+      <div class="sidebar-top">
+        <ul>
+          <li><i class="fa-solid fa-house"></i></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li><i class="fa-solid fa-bars"></i></li>
+        </ul>
+      </div>
+      <div class="playlist">
+        <h3>Playlist</h3>
+        <p class="add-playlist"><a href="#"><i class="fa-solid fa-square-plus"></i>Crea Playlist</p></a>
+        <ul>
+          <li><a href="#">Nuova Playlist</a></li>
+          <li><a href="#">Nuova Playlist</a></li>
+          <li><a href="#">Nuova Playlist</a></li>
+          <li><a href="#">Nuova Playlist</a></li>
+          <li><a href="#">Nuova Playlist</a></li>
+          <li><a href="#">Nuova Playlist</a></li>
+          <li><a href="#">Nuova Playlist</a></li>
+          <li><a href="#">Nuova Playlist</a></li>
+        </ul>
+      </div>
     </aside>
     <div class="content">
-        <header class="header">
-          <!--Contenuto dell'header-->
-            <button><a href="#">EFFETTUA L'UPGRADE</a></button>
-        </header>
-        <main class="main">
+      <header class="header">
+        <!--Contenuto dell'header-->
+        <button><a href="#">EFFETTUA L'UPGRADE</a></button>
+      </header>
+      <main class="main">
 
-          <!--Contenuto principale-->
-          <div class="container-card">
-            <nav class="menu"> 
-              <ul class="menu-list"> 
-                <li class="menu-icon"><a href="#">IN EVIDENZA</a></li> 
-                <li class="menu-icon"><a href="#">PODCAST</a></li> 
-                <li class="menu-icon"><a href="#">CLASSIFICHE</a></li> 
-                <li class="menu-icon"><a href="#">GENERI E MOOD</a></li> 
-                <li class="menu-icon"><a href="#">NUOVE USCITE</a></li> 
-                <li class="menu-icon"><a href="#">SCOPRI</a></li>
-              </ul>
-            </nav>
+        <!--Contenuto principale-->
+        <div class="container-card">
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-icon"><a href="#">IN EVIDENZA</a></li>
+              <li class="menu-icon"><a href="#">PODCAST</a></li>
+              <li class="menu-icon"><a href="#">CLASSIFICHE</a></li>
+              <li class="menu-icon"><a href="#">GENERI E MOOD</a></li>
+              <li class="menu-icon"><a href="#">NUOVE USCITE</a></li>
+              <li class="menu-icon"><a href="#">SCOPRI</a></li>
+            </ul>
+          </nav>
 
-            <h1 class="title-card">Recently Played</h1>
-            <div class="card">
-              <img src="./img/metal_lifting.jpg" alt="metal">
-              <i class="fa-regular fa-circle-play"></i>
-              <h3>Heavy Metal</h3>
-              <p>Subtitle</p>
-            </div> 
-            <div class="card">
-              <img src="./img/stranger.jpeg" alt="stranger">
-              <i class="fa-regular fa-circle-play"></i>
-              <h3>Stranger Things Vol.1 Netflix Soundtrack</h3>
-              <p>Kyle Dixon & Michael Stein</p>
-            </div> 
-            <div class="card">
-              <img src="./img/aquietplace.jpeg" alt="quietplace">
-              <i class="fa-regular fa-circle-play"></i>
-              <h3>A quiet place</h3>
-              <p>Subtitle</p>
-            </div> 
-            <div class="card">
-              <img src="./img/split.jpeg" alt="split">
-              <i class="fa-regular fa-circle-play"></i>
-              <h3>Split</h3>
-              <p>Subtitle</p>
-            </div> 
-            <div class="card">
-              <img src="./img/cure.jpeg" alt="cure">
-              <i class="fa-regular fa-circle-play"></i>
-              <h3>A cure for Welness</h3>
-              <p>Subtitle</p>
-            </div> 
-            <div class="card">
-              <img src="./img/sinister.jpeg" alt="sinister">
-              <i class="fa-regular fa-circle-play"></i>
-              <h3>Sinister</h3>
-              <p>Subtitle</p>
-            </div>
-          </div>  
+          <h1 class="title-card">Recently Played</h1>
+          <div class="card">
+            <img src="./img/metal_lifting.jpg" alt="metal">
+            <i class="fa-regular fa-circle-play"></i>
+            <h3>Heavy Metal</h3>
+            <p>Subtitle</p>
+          </div>
+          <div class="card">
+            <img src="./img/stranger.jpeg" alt="stranger">
+            <i class="fa-regular fa-circle-play"></i>
+            <h3>Stranger Things Vol.1 Netflix Soundtrack</h3>
+            <p>Kyle Dixon & Michael Stein</p>
+          </div>
+          <div class="card">
+            <img src="./img/aquietplace.jpeg" alt="quietplace">
+            <i class="fa-regular fa-circle-play"></i>
+            <h3>A quiet place</h3>
+            <p>Subtitle</p>
+          </div>
+          <div class="card">
+            <img src="./img/split.jpeg" alt="split">
+            <i class="fa-regular fa-circle-play"></i>
+            <h3>Split</h3>
+            <p>Subtitle</p>
+          </div>
+          <div class="card">
+            <img src="./img/cure.jpeg" alt="cure">
+            <i class="fa-regular fa-circle-play"></i>
+            <h3>A cure for Welness</h3>
+            <p>Subtitle</p>
+          </div>
+          <div class="card">
+            <img src="./img/sinister.jpeg" alt="sinister">
+            <i class="fa-regular fa-circle-play"></i>
+            <h3>Sinister</h3>
+            <p>Subtitle</p>
+          </div>
+        </div>
 
-          <div class="container-card">
-            <h1 class="title-card">Creato per John Doe </h1> 
-            <div class="card">
-              <img src="./img/radar.jpeg" alt="radar">
-              <h3>Release Radar</h3>
-            </div> 
-            <div class="card">
-              <img src="./img/mixdaily.jpeg" alt="mixdaily">
-              <h3>Daily Mix 1</h3>
-            </div> 
-          </div>  
+        <div class="container-card">
+          <h1 class="title-card">Creato per John Doe </h1>
+          <div class="card">
+            <img src="./img/radar.jpeg" alt="radar">
+            <h3>Release Radar</h3>
+          </div>
+          <div class="card">
+            <img src="./img/mixdaily.jpeg" alt="mixdaily">
+            <h3>Daily Mix 1</h3>
+          </div>
+        </div>
 
-          <div class="container-card">
-            <h1 class="title-card">Artisti Più Popolari</h1>
-            <div class="card">
-              <img src="./img/youg.jpeg" alt="lanadelrey">
-              <h3>Lana Del Rey</h3>
-            </div> 
-            <div class="card">
-              <img src="./img/einaudi.jpeg" alt="einaudi">
-              <h3>Ludovico Enaudi</h3>
-            </div> 
-          </div>  
+        <div class="container-card">
+          <h1 class="title-card">Artisti Più Popolari</h1>
+          <div class="card">
+            <img src="./img/youg.jpeg" alt="lanadelrey">
+            <h3>Lana Del Rey</h3>
+          </div>
+          <div class="card">
+            <img src="./img/einaudi.jpeg" alt="einaudi">
+            <h3>Ludovico Enaudi</h3>
+          </div>
+        </div>
 
-        </main>
-    </div>  
-  </div> 
+      </main>
+    </div>
+  </div>
 
-<footer class="footer">
-  <!--Contenuto del footer-->
+  <footer class="footer">
+    <!--Contenuto del footer-->
     <div class="container-footer">
       <div class="card-mini-left">
         <img src="./img/sinister.jpeg" alt="sinister">
@@ -153,8 +173,9 @@
         </div>
       </div>
     </div>
-</footer>
+  </footer>
 
 
 </body>
+
 </html>

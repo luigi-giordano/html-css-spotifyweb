@@ -1,62 +1,78 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: Montserrat, 'Helvetica Neue', sans-serif;
+  font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
+
 .container-sidebar {
   display: flex;
 }
-.sidebar-logo img{
+
+.sidebar-logo img {
   width: 80%;
 }
 
-aside{
-  background-color: aquamarine;
+.sidebar-top ul {
+  list-style-type: none;
+}
+
+aside {
   width: 250px;
   flex-shrink: 0;
 }
-header{
-  
+
+.playlist ul {
+  list-style-type: none;
+}
+
+
+header {
   background-color: #18191c;
   height: 100px;
   display: flex;
   justify-content: end;
   align-items: center;
 }
-button a{
+
+button a {
   text-decoration: none;
 }
+
 header button {
   border: 20px solid white;
   border-radius: 50px;
   height: 50%;
 }
-header button:hover{
+
+header button:hover {
   padding-bottom: 7px;
   border: 30px solid white;
 }
 
 
-.container-card { 
-  display: flex; 
-  flex-wrap: wrap; 
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 20px; 
-  background-color: #1e1f38; 
+  padding: 20px;
+  background-color: #1e1f38;
 }
-.container-card img{
+
+.container-card img {
   width: 100%;
 }
-.container-footer{
- display: flex;
- justify-content: space-between;
- align-items: center;
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.container-footer img{
+
+.container-footer img {
   width: 15%;
 }
 
@@ -68,6 +84,10 @@ header button:hover{
   color: #e6e6e6;
 }
 
+.playlist {
+  color: white;
+}
+
 .content {
   overflow: auto;
   height: calc(100vh - 100px);
@@ -75,104 +95,116 @@ header button:hover{
 
 }
 
-.menu{
+.menu {
   text-align: center;
   margin-bottom: 20px;
   width: 100%;
 
 }
 
-.menu-list { 
-  list-style-type: none; 
-  padding: 0; 
-  display: flex; 
-  justify-content: center; 
-} 
-.menu-list li { 
-  margin: 0 15px; 
-} 
-.menu-list li a { 
-  text-decoration: none; 
-  color: rgb(146, 138, 138); 
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
-.menu-list li a:hover{
+
+.menu-list li {
+  margin: 0 15px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: rgb(146, 138, 138);
+}
+
+.menu-list li a:hover {
   color: white;
 }
 
-.card {  
+.card {
   position: relative;
   flex-wrap: wrap;
-  margin: 10px; 
+  margin: 10px;
   color: white;
   text-align: center;
-  width: calc(100% / 6 - 20px); 
- }
+  width: calc(100% / 6 - 20px);
+}
 
- .title-card { 
-  width: 100%; 
-  text-align: left; 
-  margin-bottom: 20px; 
+.title-card {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
   color: white;
 }
-.card i.fa-circle-play{
-  top:140px;
+
+.card i.fa-circle-play {
+  top: 140px;
   left: 140px;
   position: absolute;
   font-size: 5rem;
   display: none;
 }
-.card:hover .fa-circle-play{
+
+.card:hover .fa-circle-play {
   display: inline-block;
 }
 
-.card-mini-left{
+.card-mini-left {
   display: flex;
   align-items: center;
   padding: 25px;
   width: 250px;
-  
+
 }
-.text-card{
+
+.text-card {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.card-mini-center{
-  
+.card-mini-center {
+
   align-items: center;
   padding: 10px;
   max-width: 30%;
-  
+
 }
-.card-mini-right{
+
+.card-mini-right {
   display: flex;
   align-items: center;
   padding: 10px;
   margin: 0;
-  
+
 }
-.media-player i{
+
+.media-player i {
   padding-right: 10px;
   padding-left: 10px;
 }
-.media-player i{
+
+.media-player i {
   font-size: 20px;
 }
-.media-player i:nth-child(3){
+
+.media-player i:nth-child(3) {
   font-size: 30px;
 }
-.progress{ 
+
+.progress {
   padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-} 
-.media-player{
+}
+
+.media-player {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.volume-bar a{
+.volume-bar a {
   color: white;
 }
 
@@ -183,21 +215,23 @@ header button:hover{
 }
 
 
-@media screen and (max-width:700px){
-  .card{
+@media screen and (max-width:700px) {
+  .card {
     width: calc(100% / 4 - 20px);
   }
 }
 
-@media screen and (max-width:600px){
-  .sidebar{
+@media screen and (max-width:600px) {
+  .sidebar {
     width: 50px;
 
   }
-  .content{
+
+  .content {
     width: calc(100% - 50px);
   }
-  .card{
+
+  .card {
     width: calc(100% / 2 - 20px);
   }
 }
