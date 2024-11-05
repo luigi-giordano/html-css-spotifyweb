@@ -13,10 +13,28 @@ p{
 h3{
   padding: 20px;
 }
-.container-sidebar {
+h4 {
+  text-align: left;
+}
+.container{
+  height: calc(100vh - 90px);
+  margin: 0 auto;
+}
+.d-flex{
   display: flex;
 }
-
+ul.list-playlist{
+  flex-grow: 1;
+  overflow: auto;
+}
+.list-playlist li {
+  font-weight: bold;
+}
+i.fa-plus-square {
+  font-size: 3rem;
+  color: #A3A3A3;
+  vertical-align: middle;
+}
 .sidebar-logo img {
   width: 80%;
 }
