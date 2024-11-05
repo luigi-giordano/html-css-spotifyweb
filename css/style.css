@@ -10,12 +10,22 @@ body {
 p{
   color: grey;
 }
-h3{
-  padding: 20px;
-}
+
 h4 {
+  width: 100%;
   text-align: left;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: grey;
 }
+.title-card {
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
 .container{
   height: calc(100vh - 90px);
   margin: 0 auto;
@@ -45,11 +55,30 @@ i.fa-plus-square {
 
 aside {
   width: 250px;
-  flex-shrink: 0;
+  flex-shrink:0
+}
+
+aside ul li{
+  padding: 10px 0px;
+  width: 100%;
+  vertical-align: middle;
+}
+aside ul li a{
+  padding: 5px 0;
+  width: 100%;
+  text-decoration: none;
+  color: #656565;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 0.8rem;
+
 }
 
 .playlist ul {
   list-style-type: none;
+}
+i.fa-arrow-alt-circle-down{
+  margin-right: 10px;
 }
 
 
@@ -152,9 +181,13 @@ div.bg-opacity {
   color: white;
 }
 
-.sidebar-bottom {
-  height: 80px;
-  background-color: #e6e6e6;
+.sidebar-user span{
+  font-weight: bold;
+  
+}
+.sidebar-user img{
+    width: 30px;
+    
 }
 
 .content {
@@ -190,15 +223,6 @@ div.bg-opacity {
 .menu-list li a:hover {
   color: white;
 }
-
-.title-card {
-  width: 100%;
-  text-align: left;
-  padding-left: 10px;
-  margin-bottom: 20px;
-  color: white;
-}
-
 
 
 .card-mini-left {
