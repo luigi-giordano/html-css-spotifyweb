@@ -90,6 +90,41 @@ button:hover {
   padding: 20px;
   background-color: #1e1f38;
 }
+.card {
+  position: relative;
+  flex-wrap: wrap;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  width: calc(100% / 6 - 20px);
+}
+
+div.bg-opacity {
+  background-color: #000000;
+  opacity: 0.5;
+  width: 255px;
+  height: 255px;
+  position: absolute;
+  top: 20px;
+  display: none;
+  z-index: 1;
+}
+.card:hover div.bg-opacity {
+  display: block;
+}
+.card i.fa-circle-play {
+  position: absolute;
+  color: white;
+  top: 29%;
+  left: 37%;
+  font-size: 5rem;
+  z-index: -1;
+  display: none;
+}
+.card:hover i.fa-circle-play {
+  z-index: 1;
+  display: block;
+}
 
 .container-card img {
   width: 100%;
@@ -156,15 +191,6 @@ button:hover {
   color: white;
 }
 
-.card {
-  position: relative;
-  flex-wrap: wrap;
-  margin: 10px;
-  color: white;
-  text-align: center;
-  width: calc(100% / 6 - 20px);
-}
-
 .title-card {
   width: 100%;
   text-align: left;
@@ -173,17 +199,7 @@ button:hover {
   color: white;
 }
 
-.card i.fa-circle-play {
-  top: 140px;
-  left: 140px;
-  position: absolute;
-  font-size: 5rem;
-  display: none;
-}
 
-.card:hover .fa-circle-play {
-  display: inline-block;
-}
 
 .card-mini-left {
   display: flex;
