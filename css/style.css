@@ -23,7 +23,7 @@ h4 {
 /**********UTILITY**********/
 
 .container{
-  height: calc(100vh - 90px);
+  height: calc(100vh - 100px);
   margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@ h4 {
 
 .content {
   overflow: auto;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 100px);
   background-color: #1e1f38;
 }
 
@@ -277,6 +277,7 @@ footer {
 }
 
 .media-player {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
 }
