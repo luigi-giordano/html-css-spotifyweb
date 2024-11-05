@@ -84,7 +84,7 @@ i.fa-arrow-alt-circle-down{
 
 
 header {
-  background-color: #18191c;
+  background-color:#080b12;
   height: 100px;
   display: flex;
   justify-content: end;
@@ -118,7 +118,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: flex-start;
   padding: 20px;
-  background-color: #1e1f38;
+  background-color: #141922
 }
 .card {
   position: relative;
@@ -129,16 +129,6 @@ button:hover {
   width: calc(100% / 6 - 20px);
 }
 
-div.bg-opacity {
-  background-color: #000000;
-  opacity: 0.5;
-  width: 255px;
-  height: 255px;
-  position: absolute;
-  top: 20px;
-  display: none;
-  z-index: 1;
-}
 .card:hover div.bg-opacity {
   display: block;
 }
@@ -157,7 +147,7 @@ div.bg-opacity {
 }
 
 .container-card img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .container-footer {
@@ -195,7 +185,7 @@ div.bg-opacity {
 
 .content {
   overflow: auto;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 90px);
   background-color: #1e1f38;
 
 }
